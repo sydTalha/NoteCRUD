@@ -11,6 +11,7 @@
 		BC1E37922B3D80540079F78B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1E37912B3D80540079F78B /* ContentView.swift */; };
 		BC1E37942B3D80590079F78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1E37932B3D80590079F78B /* Assets.xcassets */; };
 		BC1E37972B3D80590079F78B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1E37962B3D80590079F78B /* Preview Assets.xcassets */; };
+		BC74CF732B3D882D00956CBB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC74CF712B3D882D00956CBB /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BC1E37912B3D80540079F78B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC1E37932B3D80590079F78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC1E37962B3D80590079F78B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC74CF722B3D882D00956CBB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				BC1E37912B3D80540079F78B /* ContentView.swift */,
 				BC1E37932B3D80590079F78B /* Assets.xcassets */,
 				BC1E37952B3D80590079F78B /* Preview Content */,
+				BC74CF712B3D882D00956CBB /* Model.xcdatamodeld */,
 			);
 			path = CoffeeBrew;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				BC1E37922B3D80540079F78B /* ContentView.swift in Sources */,
 				BC1E37902B3D80540079F78B /* CoffeeBrewApp.swift in Sources */,
+				BC74CF732B3D882D00956CBB /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +282,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +312,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +350,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC74CF712B3D882D00956CBB /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC74CF722B3D882D00956CBB /* Model.xcdatamodel */,
+			);
+			currentVersion = BC74CF722B3D882D00956CBB /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BC1E37842B3D80540079F78B /* Project object */;
 }
